@@ -9,14 +9,14 @@ public class PathUtil {
 		if (os.toLowerCase().startsWith("win")) {
 			basePath = "F:/图片/images/";
 		}else {
-			basePath ="/home/xiangze/images/";
+			basePath ="/home/o2o/images/";
 		}
 		basePath = basePath.replace("/", separator);
 		return basePath;
 	}
 	//店铺图片的存储子路径
 	public static String getShopImagePath(long shopId) {
-		String imagePath = "/upload/item/shop" + shopId + "/";
+		String imagePath = "/upload/item/shop/" + shopId + "/";
 		return imagePath.replace("/", separator);
 	}
 }

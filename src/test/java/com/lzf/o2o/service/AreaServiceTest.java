@@ -17,12 +17,10 @@ public class AreaServiceTest extends BaseTest{
 	public void testGetAreaList() {
 		try {
 			List<Area> aList = areaService.getAreaList();
-			assertEquals("东苑", aList.get(0).getAreaName());
+			assertEquals("北苑", aList.get(0).getAreaName());
 		} catch (Exception e) {
 			e.printStackTrace();
 			// TODO: handle exception
-		}
-		
-		
+		}	
 	}
 }

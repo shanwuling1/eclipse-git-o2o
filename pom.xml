@@ -195,12 +195,7 @@
 			<artifactId>javase</artifactId>
 			<version>3.3.0</version>
 		</dependency>
-		<!-- mybatis逆向工程中用到 -->
-		<dependency>
-			<groupId>org.apache.ibatis</groupId>
-			<artifactId>ibatis-core</artifactId>
-			<version>3.0</version>
-		</dependency>
+		
 	</dependencies>
 
 	<build>

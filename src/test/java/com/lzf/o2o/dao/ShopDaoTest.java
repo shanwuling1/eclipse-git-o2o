@@ -17,7 +17,7 @@ public class ShopDaoTest extends BaseTest{
 	@Autowired
 	private ShopDao shopDao;
 	
-	/*
+	
 	@Test
 	public void testInsertShop() {
 		Shop shop = new Shop();
@@ -41,7 +41,7 @@ public class ShopDaoTest extends BaseTest{
 		int effectednum = shopDao.insertShop(shop);
 		assertEquals(1, effectednum);
 	}
-	*/
+	
 	@Test
 	public void testUpdateShop() {
 		Shop shop = new Shop();
